@@ -1,4 +1,3 @@
- ระบุคำสั่ง import
 import streamlit as st
 แสดงชื่อแอปพลิเคชั่น
 st.title("🛒แอปพลิเคชั่นคำนวณราคาสินค้ารวม VAT 7%")
@@ -15,7 +14,7 @@ st.header(f"• ภาษีมูลค่าเพิ่ม (VAT 7%): **{vat:.
 แสดงจำนวน Vat
 net_price = price - vat
 แสดงราคาสุทธิ
-t.header(f"• ราคาสุทธิ: {net_price:.2f} บาท")
+t.header(f"• ราคาสุทธิ: {net_price.2f} บาท")
 
 
 สร้างเส้นกั้น
